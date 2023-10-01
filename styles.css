@@ -1,3 +1,31 @@
 body{
     background-color: rgb(224, 224, 248);
 }
+
+.home{
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.6)),
+        url('./Images/web-dev-bg.jpg');
+        background-size: contain;
+}
+
+.intro{
+    color: whitesmoke;
+    padding: 5% 20%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#name{
+    font-size: 50px;
+}
+
+#explore{
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    color: darkkhaki;
+}
